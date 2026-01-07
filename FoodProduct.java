@@ -25,9 +25,9 @@ public class FoodProduct extends Product {
     }
 
     @Override
-    public abstract double calculateDiscount() {
-        // TODO Auto-generated method stub
-        return super.calculateDiscount();
+    public double calculateDiscount() {
+       
+        return getPrice() * 0.05;
     }
 
     

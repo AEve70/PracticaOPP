@@ -1,4 +1,4 @@
-package PracticaOPP;
+package PracticaOPP.scr;
 
 public class Main {
     public static void main(String[] args) {

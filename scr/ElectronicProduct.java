@@ -1,4 +1,4 @@
-package PracticaOPP;
+package PracticaOPP.scr;
 
 public class ElectronicProduct extends Product implements Returnable {
     

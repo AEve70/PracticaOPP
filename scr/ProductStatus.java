@@ -1,4 +1,4 @@
-package PracticaOPP;
+package PracticaOPP.scr;
 
 public enum ProductStatus {
     AVAILABLE,

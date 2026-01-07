@@ -1,4 +1,4 @@
-package PracticaOPP;
+package PracticaOPP.scr;
 
 public interface Returnable {
     

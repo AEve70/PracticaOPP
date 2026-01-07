@@ -1,4 +1,4 @@
-package PracticaOPP;
+package PracticaOPP.scr;
 
 public class FoodProduct extends Product {
     private String expirationDate;

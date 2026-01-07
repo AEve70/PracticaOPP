@@ -21,8 +21,11 @@ public class FoodProduct extends Product {
 
     @Override
     public String toString() {
-        return "FoodProduct []";
+          return super.toString() +
+                ", FoodProduct{expirationDate='" + expirationDate +
+                "', organic=" + organic + "}";
     }
+    
 
     @Override
     public double calculateDiscount() {

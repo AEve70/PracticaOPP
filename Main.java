@@ -7,5 +7,6 @@ public class Main {
 
 
         System.out.println(p2.toString());
+        System.out.println(p3.calculateDiscount());
     }
 }

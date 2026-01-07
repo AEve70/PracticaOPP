@@ -1,6 +1,6 @@
 package PracticaOPP;
 
-public abstract class Product {
+abstract class Product {
 
     private String name;
     private double price;

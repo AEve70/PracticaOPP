@@ -34,5 +34,15 @@ abstract class Vehicle {
         this.year = year;
     }
 
+    abstract void start();
+
+    void stop(){
+        System.out.println("The vehicle has stopped.");
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle [brand=" + brand + ", model=" + model + ", year=" + year + "]";
+    }
     
 }

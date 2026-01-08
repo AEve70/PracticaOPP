@@ -1,5 +1,5 @@
 package PracticaOPP.Ejercicios.Ejercicio1;
 
-public class Electric {
-    
+interface Electric {
+    void chargeBattery(); 
 }

@@ -1,5 +1,7 @@
 package PracticaOPP.Ejercicios.Ejercicio1;
 
-public class CarType {
-    
+enum CarType {
+    SEDAN,
+    TRUCK,
+    SPORTS
 }

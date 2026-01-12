@@ -20,4 +20,12 @@ public class PetManager {
         }
         return false;
     }
+
+    public Pet[] getPets() {
+        return pets;
+    }
+
+    public void setPets(Pet[] pets) {
+        this.pets = pets;
+    }
 }

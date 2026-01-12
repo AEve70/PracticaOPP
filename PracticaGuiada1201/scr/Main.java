@@ -12,9 +12,10 @@ class Main{
 
         //Recorrer arrays (for tradicional o for-each)
 
-        Person person1 = new Person("Layla", 25, 3);
+        PetManager petManager = new PetManager(5);
+        Person person1 = new Person("Layla", 25, petManager);
 
-        System.out.println("Names of pets: "+ person1.getPets());
+        //IOManager.printMessage("Name of pets: " + );
 
         for(Pet pet: person1.getPets()){
             System.out.println(pet.getPetName());

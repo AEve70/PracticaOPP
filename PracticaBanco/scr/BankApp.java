@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BankApp {
     BankAccount account;
-
+    String test;
     public BankApp(BankAccount account) {
         this.account = account;
     }

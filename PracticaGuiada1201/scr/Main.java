@@ -17,10 +17,14 @@ class Main{
 
         //IOManager.printMessage("Name of pets: " + );
 
-        for(Pet pet: person1.getPets()){
-            System.out.println(pet.getPetName());
-        } //No hay nada que recorrer, porque al ser objetos queda en null
+        // for(Pet pet: person1.getPets()){
+        //     System.out.println(pet.getPetName());
+        // } //No hay nada que recorrer, porque al ser objetos queda en null
         
-       
+       if(person1.addPet(new Pet("Max", "Dog"))){
+            IOManager.printMessage("Pet added successfully.");
+       } else {
+            IOManager.printMessage("Failed to add pet.");
+       }
     }
 }

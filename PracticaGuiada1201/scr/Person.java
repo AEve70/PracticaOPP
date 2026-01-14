@@ -32,4 +32,24 @@ public class Person {
     public boolean addPet(Pet pet){
         return petManager.addPet(pet);
     }
+
+    public PetManager getPetManager() {
+        return petManager;
+    }
+
+    public void setPetManager(PetManager petManager) {
+        this.petManager = petManager;
+    }
+
+    public boolean removePet(Pet pet){
+        return petManager.removePet(pet);
+    }
+
+    public boolean updatePets(int index, Pet pet){
+        return petManager.updatePets(index, pet);
+    }
+
+    public Pet[] getPets(){
+        return petManager.getPets();
+    }
 }
